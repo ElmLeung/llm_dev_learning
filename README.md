@@ -5,9 +5,24 @@
 本教程包含详细的文字说明和配套的视频演示，帮助您快速掌握Devground工作实例的创建和管理。
 
 ### 🎥 视频说明
-- 所有视频均为WebM格式，支持现代浏览器直接播放
-- 如果视频无法播放，请点击链接直接下载查看
+- 所有视频均为WebM格式，GitHub不支持直接播放
+- 点击视频链接可以下载到本地观看
 - 建议配合文字说明一起学习，效果更佳
+- 💡 **提示**：可以使用支持WebM的播放器（如VLC、Chrome浏览器等）观看
+
+### 🚀 视频快速导航
+| 步骤 | 视频标题 | 快速链接 |
+|------|----------|----------|
+| 1️⃣ | Ubuntu系统安装ez工具 | [![📹](https://img.shields.io/badge/📹-下载观看-blue)](captures/ubuntu_ez_install.webm) |
+| 2️⃣ | Web端创建实例 | [![📹](https://img.shields.io/badge/📹-下载观看-green)](captures/web_dg_create.webm) |
+| 3️⃣ | 命令行创建实例 | [![📹](https://img.shields.io/badge/📹-下载观看-orange)](captures/ez_dg_create.webm) |
+| 4️⃣ | SSH密钥配置 | [![📹](https://img.shields.io/badge/📹-下载观看-purple)](captures/ez_dg_keygen.webm) |
+| 5️⃣ | VSCode远程连接 | [![📹](https://img.shields.io/badge/📹-下载观看-red)](captures/vscode_dg_remote_ssh.webm) |
+| 6️⃣ | Github密钥生成 | [![📹](https://img.shields.io/badge/📹-下载观看-black)](captures/dg_github_keygen.webm) |
+| 7️⃣ | Github密钥配置 | [![📹](https://img.shields.io/badge/📹-下载观看-lightgrey)](captures/github_sshkey_setting.webm) |
+| 8️⃣ | 创建公网端口 | [![📹](https://img.shields.io/badge/📹-下载观看-yellow)](captures/ez_ingress_create.webm) |
+| 9️⃣ | 安装Nginx服务 | [![📹](https://img.shields.io/badge/📹-下载观看-brightgreen)](captures/dg_nginx_install.webm) |
+| 🔟 | 公网访问测试 | [![📹](https://img.shields.io/badge/📹-下载观看-cyan)](captures/dg_nginx_access.webm) |
 
 ## 目录
 1. [环境准备](#环境准备)
@@ -73,12 +88,11 @@ ez user quota
 
 **📹 视频演示：Ubuntu系统下安装ez命令行工具**
 
-<video width="100%" controls>
-  <source src="captures/ubuntu_ez_install.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/ubuntu_ez_install.webm">ubuntu_ez_install.webm</a>
-</video>
+[![Ubuntu系统安装ez工具](https://img.shields.io/badge/📹_视频-Ubuntu系统安装ez工具-blue?style=for-the-badge)](captures/ubuntu_ez_install.webm)
 
 > 💡 **视频内容说明**：演示在Ubuntu系统中下载、安装ez命令行工具，并进行基本的登录验证操作。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 
 ### 常见安装问题
 - **权限不足**：确保使用 sudo 权限执行安装命令
@@ -93,12 +107,11 @@ ez user quota
 
 **📹 视频演示：Web端创建Devground实例**
 
-<video width="100%" controls>
-  <source src="captures/web_dg_create.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/web_dg_create.webm">web_dg_create.webm</a>
-</video>
+[![Web端创建实例](https://img.shields.io/badge/📹_视频-Web端创建实例-green?style=for-the-badge)](captures/web_dg_create.webm)
 
 > 💡 **视频内容说明**：展示如何通过easylearning.vip网站界面创建新的Devground实例，包括选择配置、区域等步骤。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 
 ### 方式二：命令行创建实例
 使用 ez 命令行工具创建实例，适合熟练用户和自动化场景。
@@ -147,12 +160,11 @@ ez dg ls
 
 **📹 视频演示：命令行创建Devground实例**
 
-<video width="100%" controls>
-  <source src="captures/ez_dg_create.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/ez_dg_create.webm">ez_dg_create.webm</a>
-</video>
+[![命令行创建实例](https://img.shields.io/badge/📹_视频-命令行创建实例-orange?style=for-the-badge)](captures/ez_dg_create.webm)
 
 > 💡 **视频内容说明**：演示使用ez命令行工具创建Devground实例的完整过程，包括查看可用配置、创建实例、查看实例列表等操作。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 
 ### 实例创建最佳实践
 - **选择合适的规格**：根据项目需求选择CPU和内存配置
@@ -170,12 +182,11 @@ ez dg ls
 
 **📹 视频演示：配置SSH密钥和连接**
 
-<video width="100%" controls>
-  <source src="captures/ez_dg_keygen.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/ez_dg_keygen.webm">ez_dg_keygen.webm</a>
-</video>
+[![SSH密钥配置](https://img.shields.io/badge/📹_视频-SSH密钥配置-purple?style=for-the-badge)](captures/ez_dg_keygen.webm)
 
 > 💡 **视频内容说明**：展示如何使用ez工具自动生成SSH密钥并配置SSH连接，包括测试连接是否成功。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 ```bash
 # ez 自动配置ssh key和ssh config
 ez dg keygen -i 463
@@ -191,12 +202,11 @@ cat ~/.ssh/config | grep -A 5 "dg-463"
 
 **📹 视频演示：VSCode远程SSH连接配置**
 
-<video width="100%" controls>
-  <source src="captures/vscode_dg_remote_ssh.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/vscode_dg_remote_ssh.webm">vscode_dg_remote_ssh.webm</a>
-</video>
+[![VSCode远程连接](https://img.shields.io/badge/📹_视频-VSCode远程连接-red?style=for-the-badge)](captures/vscode_dg_remote_ssh.webm)
 
 > 💡 **视频内容说明**：演示如何在VSCode中配置和使用Remote-SSH扩展连接到Devground实例，包括连接过程和验证步骤。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 
 #### 配置步骤
 1. 安装 VSCode Remote-SSH 扩展
@@ -220,12 +230,11 @@ ip addr show
 
 **📹 视频演示：创建Github SSH密钥**
 
-<video width="100%" controls>
-  <source src="captures/dg_github_keygen.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/dg_github_keygen.webm">dg_github_keygen.webm</a>
-</video>
+[![Github密钥生成](https://img.shields.io/badge/📹_视频-Github密钥生成-black?style=for-the-badge)](captures/dg_github_keygen.webm)
 
 > 💡 **视频内容说明**：展示如何在Devground实例中生成Github专用的SSH密钥，包括密钥生成和SSH配置文件设置。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 ```bash
 ssh-keygen -t ed25519 -C "liangyu6262@outlook.com" -f ~/.ssh/github
 
@@ -251,12 +260,11 @@ cat ~/.ssh/github.pub
 
 **📹 视频演示：Github SSH密钥配置**
 
-<video width="100%" controls>
-  <source src="captures/github_sshkey_setting.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/github_sshkey_setting.webm">github_sshkey_setting.webm</a>
-</video>
+[![Github密钥配置](https://img.shields.io/badge/📹_视频-Github密钥配置-lightgrey?style=for-the-badge)](captures/github_sshkey_setting.webm)
 
 > 💡 **视频内容说明**：演示如何在Github网站上添加SSH公钥，包括导航到设置页面、添加新密钥、验证配置等步骤。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 
 #### 配置步骤
 1. 登录 Github 账户
@@ -286,12 +294,11 @@ git clone git@github.com:username/repository.git
 
 **📹 视频演示：创建公网访问端口**
 
-<video width="100%" controls>
-  <source src="captures/ez_ingress_create.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/ez_ingress_create.webm">ez_ingress_create.webm</a>
-</video>
+[![创建公网端口](https://img.shields.io/badge/📹_视频-创建公网端口-yellow?style=for-the-badge)](captures/ez_ingress_create.webm)
 
 > 💡 **视频内容说明**：展示如何使用ez命令创建公网访问端口映射，包括端口创建和查看映射信息的操作。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 ```bash
 # 创建公网端口访问,--ip 10.133.20.102 为内网地址，-p80 为内网端口
 ez ing create --ip 10.133.20.104 -p80
@@ -307,12 +314,11 @@ ez ing ls
 
 **📹 视频演示：安装和配置Nginx服务**
 
-<video width="100%" controls>
-  <source src="captures/dg_nginx_install.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/dg_nginx_install.webm">dg_nginx_install.webm</a>
-</video>
+[![安装Nginx服务](https://img.shields.io/badge/📹_视频-安装Nginx服务-brightgreen?style=for-the-badge)](captures/dg_nginx_install.webm)
 
 > 💡 **视频内容说明**：演示在Devground实例中安装Nginx服务器，包括安装、启动服务和本地测试访问的完整过程。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 ```bash
 # 安装nginx
 sudo apt update
@@ -334,12 +340,11 @@ curl 0.0.0.0:80
 
 **📹 视频演示：通过公网访问Nginx服务**
 
-<video width="100%" controls>
-  <source src="captures/dg_nginx_access.webm" type="video/webm">
-  您的浏览器不支持视频播放。请直接查看文件：<a href="captures/dg_nginx_access.webm">dg_nginx_access.webm</a>
-</video>
+[![公网访问测试](https://img.shields.io/badge/📹_视频-公网访问测试-cyan?style=for-the-badge)](captures/dg_nginx_access.webm)
 
 > 💡 **视频内容说明**：展示如何通过公网地址和端口访问部署在Devground实例上的Nginx服务，验证端口映射配置是否正确。
+>
+> 🔗 **观看方式**：点击上方徽章下载视频文件，使用支持WebM格式的播放器观看。
 ```bash
 # 通过公网地址访问
 curl 8.138.156.231:5008
