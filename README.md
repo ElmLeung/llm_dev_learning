@@ -20,7 +20,7 @@ $url = "https://get-ez.easylearning.vip/latest/windows-ez.exe"
 $output = "ez.exe"
 Invoke-WebRequest -Uri $url -OutFile $output
 
-#### ez 命令使用
+### ez 命令使用
 ```bash
 # 用户名密码与平台相同
 ez user login -u elm
